@@ -1,0 +1,77 @@
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.main-content {
+    width: 100%;
+    align-items: center;
+}
+
+.tools {
+  margin-top: 10rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 841px;
+  padding-right: 835px;
+}
+
+#userinput {
+  border-radius: 5%;
+}
+
+#button {
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 43.3%;
+}
+
+}
+
+#list li {
+    margin-bottom: 2.5px;
+}
+
+#buttons {
+  ist-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 44.9%;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li, button {
+    cursor: pointer;
+}
