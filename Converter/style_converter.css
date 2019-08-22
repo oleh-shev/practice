@@ -1,0 +1,60 @@
+#container {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+#container2 {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+#red, #green, #blue {
+    margin: 5px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#button,
+#button2 {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/*
+#Hesh {
+    width: 75px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*/
+#Hesh,
+#Hesh2 {
+    width: 75px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#RGB {
+    width: 125px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.error {

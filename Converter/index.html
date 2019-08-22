@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEX to RGB</title>
+    <link rel="stylesheet" href="style_converter.css">
+</head>
+<body>
+<div id="main-container">
+    <select id="select">
+        <option value="empty"></option>
+        <option value="RGB">RGB to Hex</option>
+        <option value="Hex">Hex to RGB</option>
+    </select>
+    <div id="container">
+        <input type="text" pattern="\d*" maxlength="3" id="red">
+        <input type="text" pattern="\d*" maxlength="3" id="green">
+        <input type="text" pattern="\d*" maxlength="3" id="blue">
+        <button id="button">Convert</button>
+        <input type="text" id="Hesh" disabled>
+    </div>
+    <div id="container2">
+        <input type="text" maxlength="7" value="#" id="Hesh2">
+        <button id="button2">Convert</button>
+        <input type="text" pattern="\d*" maxlength="3" id="RGB" disabled>
+    </div>
+</div>
+<script src="converter.js"></script>
+</body>
+</html>
